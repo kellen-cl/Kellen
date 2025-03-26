@@ -1,0 +1,261 @@
+p {
+    padding-top: 25px;
+}
+
+h3 {
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.slide1 img {
+    width: 200px;
+    height: 200px;
+}
+
+.slide2 {
+    text-align: left;
+    text-decoration-style: underline;
+}
+
+	
+
+
+li a {
+    text-decoration: none;
+    font-size: 24px;
+}
+
+li {
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+    text-align: center;
+    padding: 8px;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+a:visited {
+    color: blue;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    cursor: pointer;
+}
+
+a:hover {
+    color: white;
+    background-color: #4dddfa;
+    border-style: dotted;
+    border-color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a:active {
+    color: pink;
+    background-color: black;
+    border-style: double;
+    border-color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+nav {
+    position: relative;
+}
+
+.aboutus {
+    background-color: #c7fcf8;
+    padding: 20px;
+    width: 50%;
+    height: 250px;
+    overflow: auto;
+    margin: auto;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.aboutus img {
+    float: left;
+    border-radius: 15px;
+    outline-color: #d69dfa;
+    outline-style: solid;
+    outline-width: 5px;
+}
+
+.statements h3 {
+    text-decoration: underline;
+}
+
+div+p {
+    background-color: red;
+}
+
+div~p {
+    background-color: red;
+}
+
+div:hover h4 {
+    display: block;
+}
+
+h4 {
+    display: none;
+    background-color: pink;
+}
+
+footer {
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.loginbutton, .signupbutton {
+    background-color: #07cbed;
+    font-size: 23px;
+    border-radius: 15px;
+    width: 150px;
+    height: 70px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    transition: opacity 0.15s;
+}
+
+.loginbutton:hover, .signupbutton:hover {
+    opacity: 0.7;
+}
+
+.loginbutton:active, .signupbutton:active {
+    opacity: 0.5;
+}
+
+.footer img {
+    height: 20px;
+    width: 20px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    flex: 1 1 200px;
+    max-width: 250px;
+    opacity: 0.9;
+    border: 1px solid #d3b1fa;
+    margin: 5px;
+}
+
+.products::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.product img:hover {
+    opacity: 1;
+    transform: scale(1.5);
+}
+
+.product img {
+    opacity: 0.9;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+description button {
+    font-weight: bold;
+    font-size: large;
+    outline: 1px solid #caa3f7;
+}
+
+.description {
+    padding: 10px;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    font-size: large;
+}
+
+input, textarea {
+    border: 2px solid blue;
+    border-radius: 15px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: pink;
+    color: white;
+}
+
+input[type="submit"] {
+    background-color: #f573f5;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+	transition-delay:1s;
+	transition-duration:2s;
+	transition-timing-function:ease-in-out;
+	transition:background-color 2s;
+}
+input[type="submit"]:hover {
+    background-color: hsl(206, 78%, 73%);
+    border-radius: 15px;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+	cursor:pointer;
+	
+}
+
+form {
+    width: 60%;
+    left: 20%;
+    position: relative;
+    margin-top: 10px;
+}
+
+input:focus, textarea:focus {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+#heading {
+    text-align: center;
+    font-size: 34px;
+    border-image: url("../IMAGES/LINE.jpeg") 10 round;
+    border-width: 10px;
+    border-style: solid;
+    margin: 20px;
+    padding: 5px;
+}
