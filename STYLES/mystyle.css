@@ -72,7 +72,14 @@ a:active {
 }
 
 nav {
-    position: relative;
+    flex-wrap:wrap;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+nav ul{
+    display:flex;
+    gap:20px;
 }
 
 .aboutus {
@@ -262,10 +269,25 @@ input:focus, textarea:focus {
 @media screen and(max-width:480px){
     .products{
         width:50%;
+        display:block;
+        text-align:center;
     }
 }
 @media screen and (max-width:768px){
     .products{
         width:50%;
+        /*navigation style*/
+        nav{
+            display:block;
+            flex-wrap:wrap;
+        }
+        nav ul{
+            flex-direction:column;
+        }
+        nav ul li{
+            width:100%;
+        }
+        
+
     }
 }
