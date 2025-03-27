@@ -286,6 +286,7 @@ input:focus, textarea:focus {
         }
         nav ul li{
             width:100%;
+            display:block;
         }
         
 
