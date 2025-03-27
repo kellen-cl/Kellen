@@ -259,3 +259,13 @@ input:focus, textarea:focus {
     margin: 20px;
     padding: 5px;
 }
+@media screen and(max-width:480px){
+    .products{
+        width:50%;
+    }
+}
+@media screen and (max-width:768px){
+    .products{
+        width:50%;
+    }
+}
