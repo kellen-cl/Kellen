@@ -203,7 +203,9 @@ a:active {
     padding: 8px 15px;
     margin: 10px 0;
 }
-
+.button img{
+    width:10px;
+    height:10px;}
 /* Form Styles */
 form {
     width: 90%;
