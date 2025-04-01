@@ -167,7 +167,7 @@ a:active {
 }
 
 /* Products Section */
-.products {
+.products,.team {
     display: grid;
     flex-wrap: wrap;
     justify-content: center;
@@ -176,7 +176,7 @@ a:active {
     
 }
 
-.product {
+.product,.team-member {
     flex: 1 1 200px;
     max-width: 250px;
     opacity: 0.9;
