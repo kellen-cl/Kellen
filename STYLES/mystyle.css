@@ -173,7 +173,7 @@ a:active {
     justify-content: center;
     gap: 20px;
     padding: 20px;
-    grid-template-column:auto auto auto auto;
+    
 }
 
 .product {
