@@ -205,7 +205,11 @@ a:active {
 }
 .button img{
     width:30px;
-    height:30px;}
+    height:30px;
+}
+.button{
+    border-radius:15px;
+}
 /* Form Styles */
 form {
     width: 90%;
