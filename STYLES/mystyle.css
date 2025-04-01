@@ -168,7 +168,7 @@ a:active {
 
 /* Products Section */
 .products {
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
