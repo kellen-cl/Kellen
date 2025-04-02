@@ -324,4 +324,11 @@ footer img {
     .products,.team{
         grid-template-columns:repeat(1fr);
     }
+   label{
+       width:100%;
+   }
+    input{
+        width:100%;
+    }
+    
 }
