@@ -212,7 +212,7 @@ a:active {
 }
 /* Form Styles */
 form {
-    width: 90%;
+    width: 100%;
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
