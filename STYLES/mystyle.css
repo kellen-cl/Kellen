@@ -249,6 +249,10 @@ input:focus, textarea:focus {
     color: black;
     border: 2px solid black;
 }
+input,label{
+    margin:0;
+    padding:0:
+}
 
 /* Footer Styles */
 footer {
