@@ -216,9 +216,6 @@ form {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
-    display:flex;
-    flex-direction:column;
-    align-items:stretch;
 }
 
 input, textarea {
